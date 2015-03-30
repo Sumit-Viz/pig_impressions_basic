@@ -1,8 +1,0 @@
-import 'publisher_campaign.pig'
-
-%default IMPRESSIONS_PATH 's3://pathToImpressionsLog/DailyImpressions_CurDate.csv'
-
-%default ZONE_PUB_PATH 's3://pathToMappings/ZoneidToPublId.csv'
-%default BANNER_CAMP_PATH 's3://pathToMappings/BanneridToCampaignid.csv'
-
-
